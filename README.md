@@ -1,13 +1,11 @@
-# PIXA.PICS | STORING PIXEL ART NFT ONE THOUSAND YEARS!
+# PIXA.PICS | STORING PIXEL ART NFT ONE/TWO THOUSAND YEARS!
 
 
-[![Storing pixel art video thumnbail](https://github.com/pixa-pics/pixa-pics.github.io/blob/main/src/images/screenshots/STORAGE.jpeg?raw=true)](https://www.youtube.com/watch?v=cctknQhVX1w)
-> Click the image to watch the video on Youtube
+Storing pixel art 1000 years: https://www.youtube.com/watch?v=cctknQhVX1w
+> Click the link to watch the video on Youtube
 
-## **OR WATCH A DEMO (2 MINUTES)**: 
-<//////> https://youtu.be/WlgGdmXmVDo <\\\\\\\\>
-
-[1000 YEARS READY NFTS - HANDBOOK.PDF](https://github.com/pixa-pics/pixa-pics.github.io/blob/main/1000%20Years%20ready%20NFTs%20-%20Handbook.pdf)
+## **OR WATCH A DEMO (2 MINUTES)**:
+`<////////>` https://youtu.be/WlgGdmXmVDo `<\\\\\\\\>`
 
 ****
 
@@ -45,16 +43,22 @@
 # Pixa.Pics - Pixel Art Editor and NFT Laboratory
 Pixa.Pics is an all-in-one pixel art editor and NFT laboratory designed for users of all ages and skill levels. The application provides an accessible and secure way for individuals to create, store, and share pixel art while preserving their anonymity and utilizing cutting-edge blockchain technology.
 
+### :moneybag: :moneybag: >>>>> We're looking for someone who can pay us six base ten digits US$ to acquire it and lead it further, meanwhile we're working on it.
+
+> We're looking for a unique buyer to take Pixa to the next level. And we're willing to offer a reward of $2000-4000 to anyone who can make the match between Pixa and a successful buyer.
+
+pixa.pics@protonmail.com
+
 # Table of Contents
- * Introduction
- * Features
- * File Formats and Compression
- * Blockchain and NFTs
- * Privacy and Anonymity
- * Scaling and Vector Graphics
- * Getting Started
- * Contribute
- * License
+* Introduction
+* Features
+* File Formats and Compression
+* Blockchain and NFTs
+* Privacy and Anonymity
+* Scaling and Vector Graphics
+* Getting Started
+* Contribute
+* License
 
 # Introduction
 Pixel art is a popular digital art form that utilizes a limited palette of colors and distinct pixel shapes to create intricate images. Pixa.Pics is a web application that allows users to easily create and share pixel art while also taking advantage of the growing NFT market. With its simple user interface, anyone from students learning image manipulation to experienced artists can create pixel art effortlessly.
@@ -148,14 +152,14 @@ Pixa.Pics is licensed under the MIT License. This allows for free use, modificat
 
 <img width="300" height="300" src="https://raw.githubusercontent.com/pixa-pics/pixa-pics.github.io/main/src/images/screenshots/MEME.jpg" align="right" />
 
-  * **[QuantiMat](https://github.com/pixa-pics/pixa-pics.github.io/tree/main/src/js/utils/quantimat) (15.2kB minified 0 dep, only 3 kB with Gzip) is used for color quantization** it can reduce an image with 50K colors down to 2K colors in 88ms with ease, 500K OPS (1 OP = distance + blending + ordering, ...) / SEC, we achieve one of the greatest quality, when you diminish initial colors 20 times, after processing you can't clearly see any differences except it also removes pixel color glitches and so enables a better quality. We achieve this speed thanks to SIMDope, but also thanks to sorting colors in either 4096, 256, or 16 clusters that takes a binary reduction of color component down to numbers from 0 to the number of cluster and this enables to not compare all of them to all of them savings millions of operations,
+* **[QuantiMat](https://github.com/pixa-pics/pixa-pics.github.io/tree/main/src/js/utils/quantimat) (15.2kB minified 0 dep, only 3 kB with Gzip) is used for color quantization** it can reduce an image with 50K colors down to 2K colors in 88ms with ease, 500K OPS (1 OP = distance + blending + ordering, ...) / SEC, we achieve one of the greatest quality, when you diminish initial colors 20 times, after processing you can't clearly see any differences except it also removes pixel color glitches and so enables a better quality. We achieve this speed thanks to SIMDope, but also thanks to sorting colors in either 4096, 256, or 16 clusters that takes a binary reduction of color component down to numbers from 0 to the number of cluster and this enables to not compare all of them to all of them savings millions of operations,
 
 ---
 
-  * **[UraniumJS](https://www.npmjs.com/package/uraniumjs)** LZP3 & LZJBR + BASE92 are used to ENRICH or DEPLETE elements such as String, Object, and ArrayBuffer up to -2/3 gained over inline content
-  * **[SIMDope](https://www.npmjs.com/package/simdope)** Color trafficking library faster than tools not mentioning it, lighting fast and around 1000 lines of code.
-  * **[SuperJSONatural](https://www.npmjs.com/package/superjsonatural)** JSON yet, lighter & faster with the support of all JS TypedArray!
-  * **[UTFzap](https://www.npmjs.com/package/utf-zap)** Intelligent UTF-16
+* **[UraniumJS](https://www.npmjs.com/package/uraniumjs)** LZP3 & LZJBR + BASE92 are used to ENRICH or DEPLETE elements such as String, Object, and ArrayBuffer up to -2/3 gained over inline content
+* **[SIMDope](https://www.npmjs.com/package/simdope)** Color trafficking library faster than tools not mentioning it, lighting fast and around 1000 lines of code.
+* **[SuperJSONatural](https://www.npmjs.com/package/superjsonatural)** JSON yet, lighter & faster with the support of all JS TypedArray!
+* **[UTFzap](https://www.npmjs.com/package/utf-zap)** Intelligent UTF-16
 
 Look! On the STEEM blockchain you can post base64 text, transactions are rigged to 73Kb at maxima but STEEM is now kinda old for a blockchain.
 

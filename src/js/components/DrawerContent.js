@@ -3,9 +3,8 @@ import {Fade, withStyles} from "@material-ui/core";
 
 import {List, ListItem, ListItemIcon, ListItemText, Badge} from "@material-ui/core";
 
-import PersonIcon from "@material-ui/icons/Person";
+import DonateIcon from "../icons/Donate";
 import CodeIcon from "@material-ui/icons/Code";
-import PaymentIcon from "@material-ui/icons/Payment";
 import PaletteIcon from "@material-ui/icons/Palette";
 import InfoIcon from "@material-ui/icons/Info";
 
@@ -35,6 +34,31 @@ const styles = theme => ({
     },
     iconColor: {
         color: theme.palette.secondary.contrastText
+    },
+    "@global": {
+        "@keyframes glow": {
+            "0%": {
+                color: "#ffffff",
+                filter: "drop-shadow(1px 2px 3px white)"
+            },
+            "20%": {
+                color: "#b7d1ff",
+                filter: "drop-shadow(2px 4px 6px #b7d1ff)"
+            },
+            "40%": {
+                color: "#80a8ff",
+                filter: "drop-shadow(2px 4px 6px #80a8ff)"
+            },
+            "100%": {
+                color: "#ffffff",
+                filter: "drop-shadow(1px 2px 3px white)"
+            },
+        }
+    },
+    iconColorGold: {
+        color: "#ffffff",
+        filter: "drop-shadow(1px 2px 3px white)",
+        animation: "$glow 14s infinite ease-in-out",
     },
     iconLeft: {
         filter: "drop-shadow(0px 0px 15px #011562)",
@@ -175,7 +199,7 @@ class DrawerContent extends React.PureComponent {
                     </Fade>
                     <Fade in={true} timeout={300}>
                         <ListItem button className={classes.listItemGrey} onClick={(event) => this._open_link(event, "https://opencollective.com/pixapics")}>
-                            <ListItemIcon><PersonIcon className={classes.iconColor} /></ListItemIcon>
+                            <ListItemIcon><DonateIcon className={classes.iconColorGold} /></ListItemIcon>
                             <ListItemText primary="Donate" />
                         </ListItem>
                     </Fade>
@@ -189,12 +213,6 @@ class DrawerContent extends React.PureComponent {
                         <ListItem button className={classes.listItemGrey} onClick={(event) => this._open_link(event, "https://github.com/pixa-pics/pixa-pics.github.io")}>
                             <Badge className={classes.styledBadgeConnected} overlap="circular" badgeContent=" " variant="dot"><ListItemIcon><CodeIcon className={classes.iconColor} /></ListItemIcon></Badge>
                             <ListItemText primary="Source code" />
-                        </ListItem>
-                    </Fade>
-                    <Fade in={true} timeout={900}>
-                        <ListItem button className={classes.listItemGrey} onClick={(event) => this._open_link(event, "https://crypto.com/nft/r/wpfp8qu62z")}>
-                            <ListItemIcon><PaymentIcon className={classes.iconColor} /></ListItemIcon>
-                            <ListItemText primary="Showcase NFTs" secondary={"Create an account on crypto.com now, and you will receive up to $25 in CRO today due to our awesome partnership!"}/>
                         </ListItem>
                     </Fade>
                 </List>
